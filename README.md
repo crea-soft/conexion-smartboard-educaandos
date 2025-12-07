@@ -1,4 +1,5 @@
 # Conexión Inalámbrica desde una pizarra SmartBoard MX V5 a Educaandos 20.04
+Programa sencillo realizado en Python para que cualquier docente, sea o no experimentado en informática, pueda proyectar su PC/portátil de Educaandos 20.04 en las pizarras SmartBoard MX V5 de manera inalámbrica.
 
 ## Prerequisitos
 1. Instalar el servidor x11vnc desde el repositorio de Educaandos.
@@ -6,43 +7,46 @@
 
 ## Instalación del servidor VNC
 
-1. Descargar el archivo **Conexion_remota_SmartBoard.zip**.
+1. Descargar el archivo **Conexion_SmartBoard.zip**.
+
+[conexion_smartboard.zip](conexion_smartboard.zip)
 
 2. Descomprimir el archivo.
 
-Desde la línea de comandos
+Desde la línea de comandos.
 ~~~
 unzip conexion_smartboard.zip
 ~~~
 
 3. Muevete a la carpeta descomprimida.
 
-
 Desde la línea de comandos.
 ~~~
 cd conexion_smartboard
 ~~~
 
-4. Concede permisos de ejecución al archivo **install.sh**
+4. Concede permisos de ejecución al archivo **instalar.sh**
 ~~~
-chmod u+x install.sh
+chmod u+x instalar.sh
 ~~~
 5. Ejecuta el script de instalación
 ~~~
-./install.sh
+./instalar.sh
 ~~~
 También con
 ~~~
 bash install.sh
 ~~~
-
+6. Al finalizar la instalación se cerrará la sesión para aplicar los cambios.
 
 ## Ejecución y configuración del Servidor VNC
 Esto lo hacemos en nuestro portátil o PC con Educaandos.
 
-1. En el icono del escritorio **Conexión SmartBoard** mostrar el menú contextual y seleccionar la opción **Permitir Lanzar**.
+<!--1. En el icono del escritorio **Conexión SmartBoard** mostrar el menú contextual y seleccionar la opción **Permitir Lanzar**.-->
+1. Iniciar la aplicación **Conexión SmartBoard** desde el icono del escritorio. También es puedes hacerlo desde el menú aplicaciones.
 
-2. Iniciar la aplicación **Conexión SmartBoard**. En la pantalla se muestra la dirección IP actual del equipo y cuatro botones:
+
+2. En la pantalla de la aplicación se muestra la dirección IP actual del equipo y cuatro botones:
 
 - Ver/Actualizar IP
 - Configurar/Cambiar Contraseña VNC
@@ -51,7 +55,7 @@ Esto lo hacemos en nuestro portátil o PC con Educaandos.
 
 ![Iniciar la aplicación](pantallazos/servidorVNC/servidorVNC_1.png)
 
-3. (Opcional) Actualizar la dirección IP si es que hubiera cambiado desde que se inicio el programa.
+3. (Opcional) Actualizar la dirección IP si es que hubiera cambiado desde que se inició el programa.
 
 ![Ver/Actualizar IP](pantallazos/servidorVNC/servidorVNC_2.png)
 
@@ -97,7 +101,7 @@ Esto lo hacemos en nuestra pizarra SmartBoard MX V5
 
 ![Configurar Conexión](<pantallazos/clienteVNC/Pantallazo_RVNC Viewer_3.jpg>)
 
-7. En la siguiente pantalla nos muestra una advertencia de conexión no encriptada **Unencrypted connection**. Si quieres desactiva la advertencia para conexiones sucesivas con **Warn me every time**.
+7. En la siguiente pantalla nos muestra una advertencia de conexión no encriptada **Unencrypted connection**. Si quieres desactiva la advertencia para conexiones sucesivas desactivando **Warn me every time**.
 
 ![Advertencia](<pantallazos/clienteVNC/Pantallazo_RVNC Viewer_4.jpg>)
 

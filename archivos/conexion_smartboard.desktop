@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Conexión SmartBoard MX V5 - 2
+Comment=Conexión remota a pizarras SmartBoard MX
+Exec=conexion_smartboard.py
+Icon=conexion_smartboard
+Terminal=false
+Type=Application
+Categories=Utility;

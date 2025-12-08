@@ -37,6 +37,11 @@ cp .profile $HOME
 cp .bashrc $HOME
 cp .bash_logout $HOME
 
+## 6. Cargar los archivos de configuración
+#source "$HOME/.profile"
+#source "$HOME/.bashrc"
+#source "$HOME/.bash_logut"
+
 echo "Instalación completada. Puedes ejecutar el script como: conexion_smartboard.py"
 
 # 6. Notificar al usuario y cerrar la sesión para aplicar cambios

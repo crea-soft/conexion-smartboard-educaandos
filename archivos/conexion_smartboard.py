@@ -6,7 +6,7 @@ import socket
 import subprocess
 import os
 
-# ---------------- Definiciones de Rutas (Ajustar si es necesario) ----------------
+# ---------------- Definiciones de Rutas ----------------
 # Asegúrate de que estas rutas sean correctas para tu sistema Linux.
 VNC_EXECUTABLE = "/usr/bin/x11vnc" 
 TERMINAL_COMMAND = "gnome-terminal" # <-- ¡Cambia esto si usas otro terminal (ej: "konsole", "xterm")!
@@ -53,7 +53,7 @@ def get_running_vnc_pids():
         messagebox.showerror("Error de Verificación", f"Ocurrió un error al verificar procesos: {e}")
         return []
 
-# ---------------- Función configuracion_contrasena_vnc MODIFICADA ----------------
+# ---------------- Función configuracion_contrasena_vnc ----------------
 
 def configurar_contrasena_vnc():
     """
@@ -175,7 +175,7 @@ mostrar_btn.pack(pady=(5, 10))
 separator1 = tk.Frame(root, height=2, bd=1, relief=tk.SUNKEN)
 separator1.pack(fill='x', padx=5, pady=5)
 
-# --- Sección de Contraseña VNC (Nuevo Widget) ---
+# --- Sección de Contraseña VNC ---
 contrasena_btn = tk.Button(
     root,
     text="🔑 Configurar/Cambiar Contraseña VNC",

@@ -1,7 +1,7 @@
 # Conexión Inalámbrica desde una pizarra SmartBoard MX V5 a Educaandos 20.04
 Programa sencillo realizado en Python para que cualquier docente, sea o no experimentado en informática, pueda proyectar su PC/portátil de Educaandos 20.04 en las pizarras SmartBoard MX V5 de manera inalámbrica.
 
-## Prerequisitos
+## Prerrequisitos
 1. Instalar el servidor x11vnc desde el repositorio de Educaandos.
 ![Instalar servidor x11VNC](pantallazos/servidorVNC/servidorVNC_0.png)
 

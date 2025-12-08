@@ -11,7 +11,7 @@ Programa sencillo realizado en Python para que cualquier docente, sea o no exper
 
 [conexion_smartboard.zip](conexion_smartboard.zip)
 
-<a href="conexion_smartboard.zip" download>conexion_smartboard.zip</a>
+<!--<a href="conexion_smartboard.zip" download>conexion_smartboard.zip</a>-->
 
 2. Descomprimir el archivo.
 
